@@ -1,0 +1,121 @@
+
+contenido {
+    display: block;
+    font-family: Arial, sans-serif;
+    background-color: #222831;
+    padding: 3% 25%;
+    border: 2px solid #ccc;
+    margin: 20px;
+}
+titulo{
+    Display:block;
+    text-align: center;
+    color: #DFD0B8;
+    font-size: 40px;
+}
+datos{display: block;}
+
+ejercicios,fichas,departamentos {
+    text-align: center;
+    color:#222831;
+    display: block;
+    border: 1px solid #999;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #DFD0B8;
+}
+
+Ejercicio1a, Ejercicio1b,Ejercicio2a,Ejercicio2b,ficha,regresar,departamento {
+    text-align: center;
+    color:#948979;
+    display: block;
+    border: 1px solid #999;
+    padding: 30px;
+    margin: 3% 25%;
+    background-color: #393E46;
+}
+ficha,departamento
+{text-align: left;}
+ficha::before,departamento::before {
+    content: "FICHA: " attr(id) " Fecha ingreso: " attr(fechaingreso);
+    font-weight: bold;
+    font-size: 17px;
+}
+departamento::before{
+    content: "ID Dpto: " attr(id) " Nombre: " attr(nombre);
+    font-size: 17px;
+}
+pais::before {
+    display: block;
+    content: " PAIS: " attr(nombre);
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    color:#948979;
+}
+
+a{
+    color: #DFD0B8;
+}
+
+ejercicios::before {
+    content: "EJERCICIOS: ";
+    font-weight: bold;
+    font-size: 40px;
+    padding: 3% 15%;
+}
+
+nombre,apellido,direccion,email, telefono, paginaweb,iss,dui,cabecera,habitantes,altura,extension_Territorial,num_Municipios,clima,fundacion,sitio{
+    display: block;
+}
+nombre::before, apellido::before, direccion::before,email::before, telefono::before, paginaweb::before,iss::before,dui::before,cabecera::before
+,habitantes::before,altura::before, extension_Territorial::before,num_Municipios::before, clima::before, fundacion::before,sitio::before{
+    content: "Nombre: ";
+    font-weight: bold;
+    font-size: 15px;
+}
+apellido::before {
+    content: "Apellido: ";
+}
+direccion::before {
+    content: "Direccion: ";
+}
+email::before {
+    content: "Email: ";
+}
+telefono::before {
+    content: "Telefono: ";
+}
+paginaweb::before {
+    content: "Web Site: ";
+}
+isss::before {
+    content: "ISSS: ";
+}
+dui::before {
+    content: "DUI: ";
+}
+cabecera::before {
+    content: "Cabecera: ";
+}
+habitantes::before {
+    content: "Habitantes: ";
+}
+altura::before {
+    content: "Altura: ";
+}
+extension_Territorial::before {
+    content: "Extension Territorial: ";
+}
+num_Municipios::before{
+    content: "Numero de municipios:"
+}
+clima::before{
+    content: "Clima:"
+}
+fundacion::before{
+    content: "Fundacion:"
+}
+sitio::before{
+    content: "Sitio turistico:"
+}

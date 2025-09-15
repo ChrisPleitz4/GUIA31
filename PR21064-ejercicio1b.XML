@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?> 
+<!-- ejemplo 1 PR21064-->  
+<?xml-stylesheet type="text/css" href="estilo_index.css" ?> 
+<contenido xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<titulo> Ejercicio 1B</titulo>
+<fichero> 
+<fichas>
+<ficha id="1" fechaingreso="1/09/2025">
+    <nombre>
+        Christian
+    </nombre>
+    <apellido>
+        Pleitez
+    </apellido>
+    <direccion>
+        Villa universitaria
+    </direccion>
+</ficha>
+
+<ficha id="2" fechaingreso="1/09/2025">
+    <nombre>
+        Walter
+    </nombre>
+    <apellido>
+        White
+    </apellido>
+    <direccion>
+        Villa universitaria
+    </direccion>
+    <email>
+        ww@ues.edu.sv
+    </email>
+    <telefono>
+        789-2145
+    </telefono>
+    <paginaweb>
+        wwhite.com
+    </paginaweb>
+</ficha>
+
+<ficha id="3" fechaingreso="1/09/2025">
+    <nombre>
+        Alejandro
+    </nombre>
+    <apellido>
+        Pleitez
+    </apellido>
+    <direccion>
+        Villa universitaria
+    </direccion>
+    <email>
+        bot@ues.edu.sv
+    </email>
+    <telefono>
+        0233-2145
+    </telefono>
+    <paginaweb>
+        bot.com
+    </paginaweb>
+    <iss>
+        1248-9
+    </iss>
+    <dui>
+        123454646
+    </dui>
+</ficha>
+</fichas>
+<regresar> 
+    <xhtml:a href="index.xml">
+           Regresar
+        </xhtml:a>
+    </regresar>
+</fichero> 
+</contenido>

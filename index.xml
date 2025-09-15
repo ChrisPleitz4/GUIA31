@@ -1,1 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?> 
+<!-- index  PR21064-->
+<?xml-stylesheet type="text/css" href="estilo_index.css" ?> 
 
+<contenido xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <titulo>GUIA 31 XML- TPI115 
+    <datos>Christian Pleitez PR21064</datos></titulo>
+
+    <ejercicios>
+    <Ejercicio1a> 
+    EJERCICIO1A
+    <xhtml:a href="PR21064-ejercicio1a.XML">
+           Ejercicio 1a
+        </xhtml:a>
+    </Ejercicio1a>
+    <Ejercicio1b>
+    EJERCICIO1B
+     <xhtml:a href="PR21064-ejercicio1b.XML">
+            Ejercicio 1b
+        </xhtml:a>
+    </Ejercicio1b>
+    <Ejercicio2a>
+    EJERCICIO2a
+     <xhtml:a href="PR21064-ejercicio2a.xml">
+            Ejercicio 2a
+        </xhtml:a>
+    </Ejercicio2a>
+    <Ejercicio2b>
+    EJERCICIO2b
+     <xhtml:a href="PR21064-ejercicio2b.xml">
+            Ejercicio 2b
+        </xhtml:a>
+    </Ejercicio2b>
+    </ejercicios>
+</contenido>
